@@ -1,7 +1,6 @@
 ﻿using System;
-using CrashCourse2020ExercisesDayOne.Src.Utils;
 
-namespace CrashCourse2020ExercisesDayOne.Utils
+namespace CrashCourse2021ExercisesDayOne.Utils
 {
     internal class StringUtil
     {

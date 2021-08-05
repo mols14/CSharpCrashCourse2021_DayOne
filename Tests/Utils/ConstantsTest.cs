@@ -1,8 +1,7 @@
-﻿using System;
-using CrashCourse2020ExercisesDayOne.Src.Utils;
+﻿using CrashCourse2021ExercisesDayOne.Utils;
 using Xunit;
 
-namespace CrashCourse2020ExercisesDayOne.Tests.Utils
+namespace CrashCourse2021ExercisesDayOne.Tests.Utils
 {
     public class ConstantsTest
     {

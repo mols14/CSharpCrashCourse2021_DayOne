@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace CrashCourse2020ExercisesDayOne.Src.Utils
+﻿namespace CrashCourse2021ExercisesDayOne.Utils
 {
     public static class Constants
     {
