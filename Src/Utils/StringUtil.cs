@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace CrashCourse2021ExercisesDayOne.Utils
 {
@@ -11,17 +12,19 @@ namespace CrashCourse2021ExercisesDayOne.Utils
                 throw new NullReferenceException(Constants.StringCannotBeNull);
             }
 
-            throw new NotImplementedException();
+            return stringToMeasure.Length;
         }
 
         internal string SumStrings(string value1, string value2)
         {
-            throw new NotImplementedException();
+            var sum = Int32.Parse(value1) + Int32.Parse(value2);
+            return sum.ToString();
         }
 
         internal string DivideString(string value1, string value2)
         {
-            throw new NotImplementedException();
+            var quotient = Int32.Parse(value1)/Int32.Parse(value2);
+            return quotient.ToString();
         }
 
         internal string StringContains(string value1, string value2)
@@ -31,17 +34,27 @@ namespace CrashCourse2021ExercisesDayOne.Utils
 
         internal string StringToUpperCase(string value1)
         {
-            throw new NotImplementedException();
+            return value1.ToUpper();
         }
 
         internal string AdditionFromPlusString(string inputString)
         {
-            throw new NotImplementedException();
+            
+            int sum = inputString.Split('+').Sum(x => int.Parse(x));
+
+            return sum.ToString();
+            
+
         }
 
         internal string EvenNumber(int numbertoTest)
         {
-            throw new NotImplementedException();
+            if (numbertoTest % 2 == 0)
+            {
+                return "EVEN";
+            }
+
+            return "ODD";
         }
     }
 }

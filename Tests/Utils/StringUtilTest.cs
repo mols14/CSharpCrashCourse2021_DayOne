@@ -153,7 +153,7 @@ namespace CrashCourse2021ExercisesDayOne.Tests.Utils
 
         #endregion
 
-        #region Even/Odd method.. Number Returns "EVEN" Odd Number Returns "ODD"
+            #region Even/Odd method.. Number Returns "EVEN" Odd Number Returns "ODD"
         //Test if Null throws exception (Just a demo, dont worry about it yet)
         [Fact]
         public void EvenNumber_WithValidIntOf2_ReturnsEvenAsString()
